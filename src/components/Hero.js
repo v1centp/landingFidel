@@ -1,13 +1,11 @@
 import React from "react";
-
 import rectangle_1 from '../assets/Rectangle_1.png';
-// import rectangle_2 from '../assets/Rectangle_2.png';
 
 
-const Hero = ({ appType, tagLine, description, mainActionText, extraActionText }) => {
+const Hero = ({ appType, tagLine, mainActionText, extraActionText }) => {
   return (
     <div id="product">
-      <div style={{ textShadow: '0px 1px 1px gray' }} className="flex flex-col items-center justify-start font-sans min-h-96 bg-gray-50 lg:pt-10 lg:bg-hero lg:bg-cover">
+      <div style={{ textShadow: '0px 1px 1px gray' }} className="flex flex-col items-center justify-start font-sans min-h-96 bg-gray-50 lg:pt-10 bg-hero bg-cover">
         <div>
           <p className="p-3 pt-12 text-lg font-bold text-gray-500 lg:text-white">{appType}</p>
         </div>
@@ -16,7 +14,7 @@ const Hero = ({ appType, tagLine, description, mainActionText, extraActionText }
             {tagLine}
           </p>
         </div>
-        <div className='flex flex-col items-center justify-center w-full h-full '>
+        <div className='flex flex-col items-center justify-center w-full h-full'>
           <img className=" left-0 lg:left-auto lg:-mt-2" src={rectangle_1} alt="" />
         </div>
         <div id="faq" className="pt-20 text-1xl font-semibold text-center text-white lg:font-bold">save the date  </div>
@@ -28,7 +26,7 @@ const Hero = ({ appType, tagLine, description, mainActionText, extraActionText }
             {mainActionText}
           </button>
           <button
-            className="pt-3 pb-3 text-2xl font-semibold text-center text-green-400 transition-all rounded-full shadow-2xl lg:mr-5 hover:text-green-400 hover:bg-gray-50 pl-11 pr-11 bg-gray-50 focus:outline-none ring-4 ring-orange-500 lg:font-medium lg:text-gray-50 lg:bg-opacity-0 lg:ring-2 lg:ring-white"
+            className="pt-3 pb-3 text-2xl font-semibold text-center text-green-400 transition-all rounded-full shadow-2xl lg:mr-5 hover:text-green-400 hover:bg-gray-50 pl-11 pr-11 bg-gray-50 focus:outline-none ring-4 ring-green-400 lg:font-medium lg:text-gray-50 lg:bg-opacity-0 lg:ring-2 lg:ring-white mb-2"
           >
             {extraActionText}
           </button>
