@@ -1,5 +1,5 @@
 {
-  "name": "talha-food-app",
+  "name": "fyde-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "autoprefixer": "^9.8.6",
+    "nvm": "^0.0.4",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
